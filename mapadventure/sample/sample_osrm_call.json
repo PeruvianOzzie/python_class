@@ -1,0 +1,41 @@
+{
+    "code": "Ok",
+    "routes": [
+        {
+            "geometry": "etytGzxvkVwka@g`dDj|QyfaC}`n@gibHtqo@qaiFnww@cbsA`_kBmcm@n|k@c|rAtmqDotxCz|FcvlA~buBeeiC|eCkefBjieAuo_Cjz@ydxCruoBoqeCro|@cueCnddBcxZjrc@{ujBoju@cthAkrx@mj_Fc_o@{qqOr~Eu|dC~q_Cyd_GysW_luHv{d@kszGs~SkckFfjyAqhqIwo\\qz}Cdk@er`InuWmnJhCevqDlwpAql}@nbpA{l_Cn}zAaoBjbNqeu@pnq@{rGlpToacOvp{@qd~H",
+            "legs": [
+                {
+                    "steps": [],
+                    "summary": "",
+                    "weight": 127494.7,
+                    "duration": 127494.7,
+                    "distance": 3303959.5
+                }
+            ],
+            "weight_name": "routability",
+            "weight": 127494.7,
+            "duration": 127494.7,
+            "distance": 3303959.5
+        }
+    ],
+    "waypoints": [
+        {
+            "hint": "nuAUgP___38NAAAAGQAAAA4AAAAAAAAAuEocQa_v_0ACmSFBAAAAAA0AAAAZAAAADgAAAAAAAAAuZAAA0COw-D6VtgLuI7D4d5W2AgEA7waaVaLV",
+            "distance": 6.754731042,
+            "name": "Southwest Harvey Milk Street",
+            "location": [
+                -122.674224,
+                45.52019
+            ]
+        },
+        {
+            "hint": "CQI_gP___38eAAAAXQAAAAAAAAAAAAAAZjIIQkvTiUIAAAAAAAAAAB4AAABdAAAAAAAAAAAAAAAuZAAAp8uf-nxrTQJZy5_6vGpNAgAAvwaaVaLV",
+            "distance": 22.369756295,
+            "name": "Olive Street",
+            "location": [
+                -90.190937,
+                38.62822
+            ]
+        }
+    ]
+}

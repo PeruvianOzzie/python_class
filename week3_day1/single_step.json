@@ -1,0 +1,75 @@
+{
+    "geometry": {
+        "coordinates": [
+            [
+                -88.984668,
+                40.509327
+            ],
+            [
+                -88.984672,
+                40.509308
+            ],
+            [
+                -88.984674,
+                40.509274
+            ],
+            [
+                -88.984671,
+                40.509232
+            ],
+            [
+                -88.984664,
+                40.509214
+            ],
+            [
+                -88.984655,
+                40.509192
+            ]
+        ],
+        "type": "LineString"
+    },
+    "maneuver": {
+        "bearing_after": 189,
+        "bearing_before": 0,
+        "location": [
+            -88.984668,
+            40.509327
+        ],
+        "modifier": "left",
+        "type": "depart"
+    },
+    "mode": "driving",
+    "driving_side": "right",
+    "name": "Uptown Circle",
+    "intersections": [
+        {
+            "out": 0,
+            "entry": [True
+            ],
+            "bearings": [
+                189
+            ],
+            "location": [
+                -88.984668,
+                40.509327
+            ]
+        },
+        {
+            "out": 1,
+            "in": 0,
+            "entry": [False, True, False],
+            "bearings": [
+                15,
+                180,
+                315
+            ],
+            "location": [
+                -88.984672,
+                40.509308
+            ]
+        }
+    ],
+    "weight": 2.3,
+    "duration": 2.3,
+    "distance": 15.2
+}

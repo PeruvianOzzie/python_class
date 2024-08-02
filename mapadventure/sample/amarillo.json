@@ -1,0 +1,23 @@
+[
+    {
+        "place_id": 319302858,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 115286,
+        "lat": "35.20729",
+        "lon": "-101.8371192",
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 16,
+        "importance": 0.5642274792563216,
+        "addresstype": "city",
+        "name": "Amarillo",
+        "display_name": "Amarillo, Potter County, Texas, United States",
+        "boundingbox": [
+            "35.1020007",
+            "35.2944807",
+            "-101.9562440",
+            "-101.6537770"
+        ]
+    }
+]

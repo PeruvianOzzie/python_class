@@ -1,0 +1,19 @@
+{
+    "place_id": "343075063",
+    "licence": "https://locationiq.com/attribution",
+    "osm_type": "relation",
+    "osm_id": "111968",
+    "boundingbox": [
+        "37.6403143",
+        "37.929811",
+        "-123.173825",
+        "-122.281479"
+    ],
+    "lat": "37.7792588",
+    "lon": "-122.4193286",
+    "display_name": "San Francisco, California, USA",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 1,
+    "icon": "https://locationiq.org/static/images/mapicons/poi_boundary_administrative.p.20.png"
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Directions</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 800px;
+            width: 90%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oscar's Quest for Map Directions</h1>
+    <form id="directions-form">
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" required>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+        <button type="submit">Get Directions</button>
+    </form>
+    <div id="map"></div>
+    <div id="debug"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // var map = L.map('map').setView([0, 0], 2); 
+        var map = L.map('map').setView([40.5142, -88.9906], 12); 
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        $('#directions-form').on('submit', function(event) {
+            var mydiv = document.getElementById("debug");
+            var cumulativeText = "";
+            event.preventDefault();
+            var origin = $('#origin').val();
+            var destination = $('#destination').val();
+
+            $.post('/showmetheroute', {origin: origin, destination: destination}, function(data) {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                var route_coordinates = data.route.coordinates;
+
+                var lat_long = route_coordinates.map(function(coord) {
+                    return [coord[1], coord[0]]; // Reverse order for Leaflet
+                });
+                cumulativeText += "lat_long \n" + lat_long + "\n \n";
+                mydiv.innerText = cumulativeText;
+                var route = L.polyline(lat_long, {color: 'green'}).addTo(map);
+                map.fitBounds(route.getBounds());
+
+                var begin_lat_long = [parseFloat(data.origin[0]), parseFloat(data.origin[1])];
+                var end_lat_long = [parseFloat(data.destination[0]), parseFloat(data.destination[1])];
+                cumulativeText += "begin_lat_long \n" + begin_lat_long + "\n \n";
+                cumulativeText += "end_lat_long \n" + end_lat_long + "\n \n";
+                mydiv.innerText = cumulativeText;
+                L.marker(begin_lat_long).addTo(map)
+                    .bindPopup('Origin: ' + origin).openPopup();
+
+                L.marker(end_lat_long).addTo(map)
+                    .bindPopup('Destination: ' + destination).openPopup();
+            });
+        });
+    </script>
+</body>
+</html>

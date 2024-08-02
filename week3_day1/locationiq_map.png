@@ -1,0 +1,268 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<link rel="canonical" href="https://locationiq.com/v1/staticmap" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1.3.6">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1.3.6">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1.3.6">
+<link rel="manifest" href="/site.webmanifest?v=1.3.6">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=1.3.6" color="#ff5c5c">
+<link rel="shortcut icon" href="/favicon.ico?v=1.3.6">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<title>Error - LocationIQ</title>
+<meta name="title" content="Error - LocationIQ">
+<meta name="title" content="LocationIQ - Free Reverse Geocoding API, Geocoding API, Autocomplete API">
+<meta name="description" content="Affordable Google Maps alternative for Reverse Geocoding, Geocoding, Maps and Routing APIs. Generous free tier, offering Enterprise-grade APIs for everyone!">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://us1.locationiq.com/v1/staticmap?key=pk.41844037f8850043d6c80f45745d768e&center=37.7792588%2C-122.4193286&zoom=10&size=600x400&format=pgn">
+<meta property="og:title" content="LocationIQ - Free Reverse Geocoding API, Autocomplete API">
+<meta property="og:description" content="Affordable Google Maps alternative for Reverse Geocoding, Geocoding, Maps and Routing APIs. Generous free tier, offering Enterprise-grade APIs for everyone!">
+<meta property="og:image" content="https://locationiq.com/static/v2/images/social/meta/preview-home.png">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://locationiq.com/">
+<meta property="twitter:title" content="LocationIQ - Free Reverse Geocoding API, Routing & Direction APIs">
+<meta property="twitter:description" content="Affordable Google Maps alternative for Reverse Geocoding, Geocoding, Maps and Routing APIs. Generous free tier, offering Enterprise-grade APIs for everyone!">
+<meta property="twitter:image" content="https://locationiq.com/static/v2/images/social/meta/preview-home.png">
+
+<link rel="stylesheet" href="https://locationiq.com/static/v2/css/vendors.bundle.css?v=1.3.6" media="all">
+<link rel="stylesheet" href="https://locationiq.com/static/v2/css/styles.css?v=1.3.6" media="all">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://locationiq.com/static/v2/css/locationiq-bootstrap-custom.css?v=1.3.6" media="all">
+<link rel="stylesheet" href="https://locationiq.com/static/v2/css/custom.css?v=1.3.6" media="all">
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<script src="https://locationiq.com/static/v2/js/vendors.bundle.js?v=1.3.7"></script>
+<script src="https://locationiq.com/static/v2/js/scripts.bundle.js?v=1.3.7"></script>
+<script src="https://locationiq.com/static/v2/js/jquery-ui.min.js?v=1.3.7"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TRV5GF9KFC"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-TRV5GF9KFC');
+        </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PHBWMK2');</script>
+<script src="https://cdn.ravenjs.com/3.24.2/raven.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+            Raven.config('https://c197e0748be8448cbc7925d22edb7a04@sentry.io/178968').install();
+        </script>
+<script>
+        !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+        posthog.init('phc_BCXQerPZXSO2iIfTPoj3wqu4Wbcc8jlA05Wp5oieg7T',{api_host:'https://eu.posthog.com'})
+    </script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHBWMK2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="wrapper">
+<header id="header">
+<div class="container nav"> <a href="https://locationiq.com/" class="brand">
+<img src="https://locationiq.com/static/v2/images/logo@2x.png" width="153" alt="LocationIQ"></a>
+<nav class="navbar">
+<ul>
+<li class="has-submenu"> <a href="javascript:void(0);">Products</a>
+<ul class="submenu product-menu">
+<li>
+<a href="https://locationiq.com/geocoding" class="product-link">
+<img src="https://locationiq.com/static/v2/images/svg/menu/geocoding.svg" alt>
+<div class="product-desc">
+<span>Geocoding</span>
+<p>Convert coordinates to addresses</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://locationiq.com/maps" class="product-link">
+<img src="https://locationiq.com/static/v2/images/svg/menu/map.svg" alt>
+<div class="product-desc">
+<span>Maps</span>
+<p>Beautiful, customizable map tiles</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://locationiq.com/routing" class="product-link">
+<img src="https://locationiq.com/static/v2/images/svg/menu/navigation.svg" alt>
+<div class="product-desc">
+<span>Routing</span>
+<p>Plan optimal routes for assets</p>
+</div>
+</a>
+</li>
+<li>
+<a href="https://locationiq.com/docs" class="product-link">
+<div class="product-desc">
+<span>Documentation</span>
+<p>API Reference, Samples</p>
+</div>
+</a>
+</li>
+</ul>
+</li>
+
+<li><a href="https://locationiq.com/demo">Demo</a></li>
+<li><a href="https://locationiq.com/pricing">Pricing</a></li>
+<li class="has-submenu"> <a href="javascript:void(0);">Company</a>
+<ul class="submenu product-menu">
+<li>
+<a href="https://locationiq.com/about" class="product-link">
+<div class="product-desc">
+<span>About LocationIQ</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://locationiq.com/careers" class="product-link">
+<div class="product-desc">
+<span>Careers</span>
+</div>
+</a>
+</li>
+<li>
+<a href="https://locationiq.com/contact" class="product-link">
+<div class="product-desc">
+<span>Contact Us</span>
+</div>
+</a>
+</li>
+</ul>
+</li>
+<li class="mobile-link"><a href="https://my.locationiq.com/dashboard/login">Log In</a></li>
+<li class="mobile-link"><a href="https://my.locationiq.com/register" class="btn btn-red-border">Sign Up</a></li>
+</ul>
+</nav>
+<nav class="ex-navbar">
+<ul>
+<li><a href="https://my.locationiq.com/dashboard/login">Log In</a></li>
+<li><a href="https://my.locationiq.com/register" class="btn btn-red-border">Sign Up</a></li>
+</ul>
+</nav>
+<button type="button" id="hamburger"><span></span></button>
+</div>
+</header>
+<div id="content">
+<div class="inner-banner map-inner-banner text-center">
+<div class="banner-content">
+<div class="container">
+<h3>
+<img class="hl" src="/startup/common-files/icons/Egg@2x.png" width="100" height="100" alt />Whoops..
+</h3>
+<p class="lead">Sorry, we couldn&#039;t find the page you were looking for.</p>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer">
+<div class="footer-container">
+<div class="container footer-stripe-container">
+<div class="top-footer">
+<div class="top-footer-content">
+<h2>Start building with LocationIQ</h2>
+<p>Global location services don’t need to cost the Earth!</p>
+</div>
+<div class="top-footer-btns">
+<a href="https://my.locationiq.com/register" class="btn btn-red btn-lg btn-fixed">Sign Up</a>
+<a href="https://locationiq.com/contact" class="btn btn-red-border btn-lg btn-fixed">Contact Us</a>
+</div>
+</div>
+<div class="row">
+<div class="col-3 col-md-6 col-sm-6 footer-content"> <a href="https://locationiq.com/" class="footer-logo"><img src="https://locationiq.com/static/v2/images/logo@2x.png" width="153" alt></a>
+<p class="font-md">Affordable, Scalable & Reliable location services since 2013. We proudly serve
+100k+ developers who make 2 billion+ requests each day.</p>
+</div>
+<div class="col-1 space-col"></div>
+<div class="col-2 col-sm-6 foot-link"> <span>Products</span>
+<ul>
+<li><a href="https://locationiq.com/geocoding">Geocoding</a></li>
+<li><a href="https://locationiq.com/maps">Maps</a></li>
+<li><a href="https://locationiq.com/routing">Routing</a></li>
+<li><a href="https://locationiq.com/pricing">Pricing</a></li>
+</ul>
+</div>
+<div class="col-2 col-sm-6 foot-link"> <span>Switch from</span>
+<ul>
+<li><a href="https://locationiq.com/google-maps-alternative">Google Maps</a></li>
+<li><a href="https://locationiq.com/mapbox-alternative">Mapbox</a></li>
+<li><a href="https://locationiq.com/mapquest-alternative">Mapquest</a></li>
+</ul>
+</div>
+<div class="col-2 col-sm-6 foot-link"> <span>Company</span>
+<ul>
+<li><a href="https://locationiq.com/about">About</a></li>
+<li><a href="https://locationiq.com/affiliate">Affiliate Partners</a></li>
+<li><a href="https://blog.locationiq.com/">Blog</a></li>
+<li><a target="_blank" href="https://locationiq.com/careers">Careers</a></li>
+<li><a href="https://locationiq.com/contact">Contact Us</a></li>
+</ul>
+</div>
+<div class="col-2 col-sm-6 foot-link"> <span>Resources</span>
+<ul>
+<li><a href="https://locationiq.com/docs">API Documentation</a></li>
+<li><a target="_blank" href="https://status.locationiq.com/">API Status</a></li>
+<li><a href="https://my.locationiq.com/dashboard/login">User Dashboard</a></li>
+
+
+<li><a target="_blank" href="https://help.locationiq.com/support/home">Help</a></li>
+</ul>
+</div>
+</div>
+<div class="last-footer font-sm">
+<div>&copy; 2024 LocationIQ, © <a target="_blank" id="footer-unwired-link" href="https://unwiredlabs.com">Unwired Labs</a>.</div>
+<ul class="foot-last-link">
+<li><a href="https://locationiq.com/privacy">Privacy policy</a></li>
+<li><a href="https://locationiq.com/tos">Terms of Use</a></li>
+<li><a href="https://locationiq.com/dpa">DPA / GDPR</a></li>
+<li><a href="https://locationiq.com/attribution">Attribution</a></li>
+<li><a href="https://twitter.com/location_iq" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+<path class="social-icon" fill-rule="evenodd" d="M11.976 3.056c0 3.626-2.751 7.805-7.783 7.805-1.491 0-2.95-.429-4.193-1.232a5.469 5.469 0 0 0 4.05-1.14c-1.183-.028-2.214-.794-2.557-1.9a2.697 2.697 0 0 0 1.238-.048C1.44 6.267.522 5.144.535 3.854c.38.175.805.292 1.24.31A2.754 2.754 0 0 1 .93.498a7.752 7.752 0 0 0 5.638 2.866 2.772 2.772 0 0 1-.07-.624C6.476 1.247 7.7.02 9.231 0c.76 0 1.485.314 1.996.863a5.37 5.37 0 0 0 1.738-.662c-.2.63-.628 1.169-1.204 1.514a5.442 5.442 0 0 0 1.571-.429 5.576 5.576 0 0 1-1.364 1.417c.005.12.007.239.007.353z" />
+</svg>
+</a>
+</li>
+<li> <a href="https://linkedin.com/company/unwired-labs" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 50 512 400">
+<path class="social-icon" fill-rule="evenodd" d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683
+        C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z
+        M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615
+        c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915
+        s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" />
+</svg>
+</a>
+</li>
+<li><a href="https://github.com/location-iq" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<style>
+.q-onsite-chat #q-powered-by-container {
+    display: none !important;
+}
+</style>
+</body>
+</html>
